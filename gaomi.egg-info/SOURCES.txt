@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+gaomi/__init__.py
+gaomi/dcm2nii.py
+gaomi/getparams.py
+gaomi/nrrd2nii.py
+gaomi.egg-info/PKG-INFO
+gaomi.egg-info/SOURCES.txt
+gaomi.egg-info/dependency_links.txt
+gaomi.egg-info/top_level.txt

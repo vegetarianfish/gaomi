@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gaomi
+Version: 0.0.1
+Summary: A small medical image processing package
+Home-page: https://github.com/vegetarianfish/gaomi
+Author: Gao Hongjian
+Author-email: hbtsqaghj@buaa.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+

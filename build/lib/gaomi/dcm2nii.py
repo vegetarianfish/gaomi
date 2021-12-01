@@ -33,8 +33,8 @@ def ReadDcmAsSitkImage(dcm_dir:str):
     """
     if dcm_dir[-1] != '/':
         dcm_dir += '/'
-    for i in range(1, len(os.listdir(dcm_dir)) + 1):
-        dcm1 = sitk.ReadImage(dcm_dir + '%d.DCM'%i)
+    for i, name in enumerate(sorted(os.listdir(dcm_dir)), 1):
+        dcm1 = sitk.ReadImage(join(dcm_dir, name))
         if i == 1:
             origin = dcm1.GetOrigin()
             arr = sitk.GetArrayFromImage(dcm1)

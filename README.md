@@ -1,5 +1,9 @@
-# Example Package
+# gaomi
+An open source and light toolbox that provides some convenient functions in medical image processing.
 
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+## Install
+```
+pip install gaomi
+```
+
+## Functions
